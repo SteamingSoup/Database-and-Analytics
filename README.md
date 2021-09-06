@@ -25,7 +25,7 @@ To convert the relations to 3NF it is important to ensure they meet the criteria
 Once all relations are converted to 3NF and entity relationship diagram can be developed, which will act as a guide to table implementation.
 
 ## Entity Relationship Diagram
-
+![Diagram](/image/chicago_crime_erd.png)
 
 ## Part 2: Using DDL to create relations in postgres server
 Using the entity relationship diagram developed in Part 1 as a guide, tables can now be created to begin loading data into the tables.
