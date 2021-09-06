@@ -34,7 +34,6 @@ For this section [SQLAlchemy](https://www.sqlalchemy.org/) will be utilized.
 
 This portion will consist of:
 - Creating the tables into the postgres server
-- Show the table definitions using psql or querying the information schema catalog
 - Load the data from the dataset to the tables
 - Ensuring data has been properly loaded into the server
 
