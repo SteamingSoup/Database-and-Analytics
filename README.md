@@ -1,4 +1,4 @@
-# Database-and-Analytics
+# Relational Database Loading
 
 ## Project
 This project will explore a dataset and implement a relational database for storing data.
