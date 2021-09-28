@@ -11,18 +11,19 @@ The goals of this project include:
 The data used will be a 2012 Chicago crime dataset. 
 
 ## Part 1: Identify features of the dataset and design entity-relationship model
-To develop an effective entity-relationship model for the Chicago Crime dataset it is important to determine all entities and with their associated attributes and identify primary and foriegn keys. This can be used to develop an initial set of relations. Once an initial set of relations is determined those relations can be converted to 3NF.
+To develop an effective entity-relationship model for the Chicago Crime dataset it is important to determine all entities, their associated attributes, and identify primary and foriegn keys. This can be used to develop an initial set of relations. Once an initial set of relations is determined those relations can be converted to 3NF.
 
 3NF is a database schema design approach for relational databases that uses normalization to reduce the duplication of data, avoid data anomalies, ensure referential integrity, and simplify data management.
 
-To convert the relations to 3NF it is important to ensure they meet the criteria of 1NF and 2NF. The criteria for 1NF, 2NF, and 3NF are:
-1NF: Each table cell should contain a single value, and each record needs to be unique
+To convert the relations to 3NF it is important to ensure they meet the criteria of 1NF and 2NF. The criteria for 1NF, 2NF, and 3NF are:   
 
-2NF: Each table must be 1NF and there should be no partial dependencies. A partial dependency is when you have a composite primary key and one or more of the non-key coloumns is functionally depoendent on one, but not all, of the columns in the composite primary key.
+1NF: Each table cell should contain a single value, and each record needs to be unique.
+
+2NF: Each table must be 1NF and there should be no partial dependencies. A partial dependency is when you have a composite primary key and one or more of the non-key columns is functionally dependent on one, but not all, of the columns in the composite primary key.
 
 3NF: Each table must be 2NF and there should be no transitive dependencies. An example of a transitive dependency is if P -> Q & Q -> R then P -> R.
 
-Once all relations are converted to 3NF and entity relationship diagram can be developed, which will act as a guide to table implementation.
+Once all relations are converted to 3NF an entity relationship diagram can be developed, which will act as a guide to table implementation.
 
 ## Entity Relationship Diagram
 ![Diagram](/image/chicago_crime_erd.png)
